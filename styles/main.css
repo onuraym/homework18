@@ -1,0 +1,99 @@
+.info {
+  padding: 10px 0px 0px 26px;
+
+}
+
+.info__title {
+  position: absolute;
+  font-weight: 700;
+  font-size: 47px;
+  line-height: 58px;
+  color: #000000;
+  top: 60px;
+  left: 26px;
+}
+
+.info__text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #090909;
+  padding-top: 100px;
+}
+
+.info__image-desktop {
+  display: none;
+}
+.info__image-mobile {
+  width: 100%;
+  max-width: 316px;
+  height: 478px;
+  object-fit: cover;
+  padding: 36px 0px 75px 0px;
+}
+
+.line__title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.line__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.about-me {
+  background: #f6f6f6;
+  height: 350px;
+  padding: 81px 0px 76px 0px;
+  
+}
+
+.about-me p {
+  padding: 0px 0px 30px 0px;
+  text-align: center;
+}
+
+.skills {
+  padding: 63px 0px 65px 0px;
+  
+}
+
+.skill-card {
+  text-align: center;
+  padding: 20px 5px 20px 5px;
+}
+
+.skill-card__title {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  padding: 18px 0px 35px 0px;
+}
+
+.skill-card__reiting {
+  padding-bottom: 40px;
+}
+
+.portfolio {
+  background: #f6f6f6;
+  padding: 78px 30px 80px 0px;
+}
+
+.portfolio__image {
+  width: 316px;
+  height: 171px;
+  padding: 36px 0px 20px 0px;
+  
+}
+
+.portfolio__image__text {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  padding-bottom: 55px;
+}

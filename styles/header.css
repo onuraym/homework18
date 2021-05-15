@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  width: 375px;
+  position: relative;
+}
+
+.header {
+  height: 85px;
+}
+
+.header__button {
+  float: right;
+  margin-top: 68px;
+  padding-right: 30px;
+}
+
+.header__menu > ul{
+  display: none;
+}

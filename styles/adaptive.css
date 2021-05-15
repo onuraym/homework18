@@ -1,0 +1,138 @@
+
+@media only screen and (min-width: 1300px) {
+  .container {
+    width: 1300px;
+    margin: 0px;
+  }
+
+/* HEADER STYLES */
+  .header__button {
+    display: none;
+  }
+  .header {
+    width: 1445px;
+    height: 87px;
+    border-bottom: 1px solid #828282;
+    
+  }
+  .header__menu {
+    margin: auto;
+    width: 943.61px;
+  
+  }
+  .header__menu > ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    list-style-type: none;
+    padding-top: 33px;
+  }
+  .header__menu a {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+  }
+
+  
+
+  /* MAIN STYLES */
+  .info {
+    /* width: 1445px; */
+    height: 590px;
+    padding: 94px 0px 0px 0px;
+    width: 943.61px;
+
+  }
+
+  .info__text {
+    width: 155.65px;
+    height: 44.06px;
+    padding: 0px 617px 49px 645px;
+  }
+
+  .info__image-mobile {
+    display: none;
+  }
+
+  .info__image-desktop {
+    display: block;
+    padding-left: 230px;
+  }
+
+  .info__title {
+    top: 120px;
+    left: 252px;
+  }
+
+  .about-me {
+    width: 1445px;
+    height: 400px;
+    padding: 110px 0px 0px 0px;
+  }
+
+  .skills {
+    width: 1445px;
+    padding: 80px 0px 65px 0px;
+  }
+
+  .skill-cards {
+    width: 945px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .skill-card {
+    text-align: center; 
+    padding: 20px 5px 20px 5px;
+  }
+
+  .portfolio {
+    width: 1445px;
+    padding: 120px 30px 80px 0px;
+  }
+
+  .portfolio__image {
+    width: 936.24px;
+    height: 510px;
+    padding: 47px 251px 44px 257px;
+  }
+
+
+  /* FOOTER STYLES */
+  .footer {
+    width: 375px;
+    height: 569px;
+    margin: auto;
+    padding: 100px 30px 90px 29px;
+    position: relative;
+  }
+
+  .footer__text {
+    padding-bottom: 50px;
+  }
+
+  .footer__button {
+    position: absolute;
+    top: 280px;
+    left: 130px;
+    width: 180px;
+    height: 42px;
+    background: #000000;
+    border-radius: 50px;
+
+  }
+
+  .social-media__icons {
+    padding: 100px 0px 48px 0px;
+  }
+
+  .footer__icons-text {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+}

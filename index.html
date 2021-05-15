@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <div class="header__menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <a href="#" class="header__button">
+          <img src="./assets/menu_icon.png" alt="menu icon">
+        </a>
+      </div>
+    </header>
+
+    <div class="info">
+      <h1 class="info__title">Denis <br> Novik</h1>
+      <p class="info__text">UX | UI designer <br> 24 years old, Minsk</p>
+      <picture>
+        <source media="max-width: 480px" srcset="./assets/hero_img_mobile.png">
+        <source media="min-width: 600px" srcset="./assets/hero_img_desktop.png">
+
+        <img src="./assets/hero_img_mobile.png" alt="Denis Novik" class="info__image-mobile">
+        <img src="./assets/hero_img_desktop.png" alt="Denis Novik" class="info__image-desktop">
+      </picture>
+      
+    </div>
+
+    <div class="line about-me">
+      <h2 class="line__title">About me</h2>
+      <p>Hi, I'm Denis – UX/UI designer from <br> Minsk. I'm interested in design and <br> everything connected with it.</p>
+      <p>I'm studying at courses <br> "Web and mobile design interfaces" <br> in IT-Academy.</p>
+      <p>Ready to implement excellent <br> projects with wonderful people.</p>
+    </div>
+
+    <div class="line skills">
+      <h2 class="line__title">Skills</h2>
+      <p class="line__text">I work in such programs as</p>
+      <div class="skill-cards">
+        <div class="skill-card">
+          <img src="./assets/adobe_photoshop.png" alt="Adobe Photoshop">
+          <p class="skill-card__title">Adobe <br> Photoshop</p>
+          <div class="skill-card__reiting">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/grey_star.png" alt="star">
+          </div>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/adobe_illustrator.png" alt="Adobe Illustrator">
+          <p class="skill-card__title">Adobe <br> Illustrator</p>
+          <div class="skill-card__reiting">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/grey_star.png" alt="star">
+            <img src="./assets/grey_star.png" alt="star">
+          </div>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/adobe_after_effects.png" alt="Adobe After Effects">
+          <p class="skill-card__title">Adobe <br> After Effecst</p>
+          <div class="skill-card__reiting">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/grey_star.png" alt="star">
+          </div>
+        </div>
+        <div class="skill-card">
+          <img src="./assets/figma.png" alt="Figma">
+          <p class="skill-card__title">Figma</p>
+          <div class="skill-card__reiting">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/black_star.png" alt="star">
+            <img src="./assets/grey_star.png" alt="star">
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+
+    <div class="portfolio">
+      <h2 class="line__title">Portfolio</h2>
+      <img src="./assets/fashion_store.png" alt="Online fashion store" class="portfolio__image">
+      <p class="portfolio__image__text">Online fashion store - Homepage</p>
+      <img src="./assets/reebok_store.png" alt="Reebok store" class="portfolio__image">
+      <p class="portfolio__image__text">Reebok Store - Concept</p>
+      <img src="./assets/landing_page.png" alt="Landing page" class="portfolio__image">
+      <p class="portfolio__image__text">Braun Landing Page - Concept</p>
+    </div>
+
+    <footer class="footer">
+      <h2 class="line__title">Contacts</h2>
+      <p class="footer__text">
+        Want to know more or just chat? <br>
+        You are welcome!
+      </p>
+      <button class="footer__button"><a href="#">Send message</a></button>
+      <div class="social-media__icons">
+        <img src="./assets/linkedln.png" alt="Linkedln">
+        <img src="./assets/instagram.png" alt="Instagram">
+        <img src="./assets/behance.png" alt="Behance">
+        <img src="./assets/dribble.png" alt="Dribble">
+      </div>
+      <p class="footer__icons-text">Like me on <br>
+        LinkedIn, Instagram, Behance, Dribble</p>
+    </footer>
+
+  </div>
+</body>
+</html>
